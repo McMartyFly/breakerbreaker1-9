@@ -7,13 +7,105 @@
 header {
   padding: 154px 0 100px;
 }
+header.banner {
+  background: url("../img/truck-train-banner-v2.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.banner .container {
+  position: relative;
+  top: -35px;
+}
+header.banner .container h1,
+header.banner .container p {
+  font-weight: bold;
+  text-shadow: 2px 2px #000;
+}
+
+#mainNav .container .bb19-logo {
+  display: block;
+  width: 70px;
+}
+#mainNav .container .bb19-logo img {
+  border-radius: 35px;
+  height: auto;
+  width: 100%;
+}
 
 @media (min-width: 992px) {
   header {
-    padding: 156px 0 100px;
+    padding: 275px 0 100px;
   }
 }
 
 section {
-  padding: 150px 0;
+  padding: 100px 0;
+}
+
+/*footer styles*/
+footer ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+footer ul li {
+  font-size: 34px;
+  display: inline;
+}
+
+/*footer social icon colors and hovers*/
+footer ul li a.fa-facebook-square {
+  color: #3B5998;
+}
+footer ul li a.fa-facebook-square:hover {
+  color: #5a7abf;
+}
+
+footer ul li a.fa-twitter-square {
+  color: #1DA1F2;
+}
+footer ul li a.fa-twitter-square:hover {
+  color: #56b8f5;
+}
+
+footer ul li a.fa-google-plus-square {
+  color: #DB4437;
+}
+footer ul li a.fa-google-plus-square:hover {
+  color: #e37268;
+}
+
+footer ul li a.fa-youtube-square {
+  color: #ff0000;
+}
+footer ul li a.fa-youtube-square:hover {
+  color: #ff4d4d;
+}
+
+footer ul li a.fa-instagram {
+  color: #C32AA3;
+}
+footer ul li a.fa-instagram:hover {
+  color: #db57bf;
+}
+
+footer ul li a.fa-linkedin-square {
+  color: #007BB5;
+}
+footer ul li a.fa-linkedin-square:hover {
+  color: #00aeff;
+}
+
+
+footer ul li a {
+  display: inline-block;
+}
+footer ul li a:hover {
+  text-decoration: none;
+}
+
+footer .brand {
+  color: #ff0000;
 }
