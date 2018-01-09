@@ -3,16 +3,33 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #DC4237;
+}
 header {
   padding: 154px 0 100px;
 }
 header.banner {
-  background: url("../img/truck-train-banner-v2.jpg");
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: scroll;
+  /*background-attachment: scroll;*/
   background-size: cover;
+}
+.banner1 {
+  background: url("../img/fusion_faded.png");
+}
+.banner2 {
+  background: url("../img/orange2.jpg");
+  padding: 200px 0 100px;
+}
+.banner3 {
+  background: url("../img/truck_circle.jpg");
+  padding: 200px 0 100px;
+}
+.banner4 {
+  background: url("../img/TrucksOnTheRoad.jpg");
+  padding: 200px 0 100px;
 }
 header.banner .container {
   position: relative;
@@ -20,8 +37,19 @@ header.banner .container {
 }
 header.banner .container h1,
 header.banner .container p {
+  color: #343a40;
   font-weight: bold;
-  text-shadow: 2px 2px #000;
+  text-shadow: 1px 1px #fff;
+}
+header.banner .container h1,
+header.banner .container p span {
+  color: #DC4237;
+}
+h2 {
+  text-align: center;
+}
+h2 span {
+  color: #DC4237;
 }
 
 #mainNav .container .bb19-logo {
@@ -29,9 +57,17 @@ header.banner .container p {
   width: 70px;
 }
 #mainNav .container .bb19-logo img {
-  border-radius: 35px;
   height: auto;
   width: 100%;
+}
+
+#contact a {
+  display: block;
+  text-align: center;
+}
+#contact a:hover {
+  color: #DC4237;
+  text-decoration: none;
 }
 
 @media (min-width: 992px) {
@@ -107,5 +143,5 @@ footer ul li a:hover {
 }
 
 footer .brand {
-  color: #ff0000;
+  color: #DC4237;
 }
